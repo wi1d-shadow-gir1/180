@@ -1,0 +1,37 @@
+{
+    "name": "蓝牙最新测试180ąčą",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "bluetooth": "*",
+        "mbit": "github:lzty634158/yahboom_mbit#5f787118b0edf9ec2716d611a9c8bc7985b8f639",
+        "microphone": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.blocks"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "ignoreConflicts": true,
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "pairing_mode": 0
+                }
+            }
+        }
+    }
+}
